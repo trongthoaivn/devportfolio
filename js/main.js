@@ -701,4 +701,11 @@ $(function() {
 
     })
 
+    $('.art-ls-social a').on('click', function() {
+        var url = $(this).attr('link-src')
+        if (url != '') {
+            window.open($(this).attr('link-src'), '_blank').focus();
+        }
+    })
+
 });
