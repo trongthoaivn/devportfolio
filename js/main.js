@@ -413,6 +413,32 @@ $(function() {
         ],
     });
 
+    $('[data-fancybox="certificate"]').fancybox({
+        animationEffect: "zoom-in-out",
+        animationDuration: 600,
+        transitionDuration: 1200,
+        buttons: [
+            "zoom",
+            "share",
+            "slideShow",
+            "thumbs",
+            "close"
+        ],
+    });
+
+    $('[data-fancybox="contest"]').fancybox({
+        animationEffect: "zoom-in-out",
+        animationDuration: 600,
+        transitionDuration: 1200,
+        buttons: [
+            "zoom",
+            "share",
+            "slideShow",
+            "thumbs",
+            "close"
+        ],
+    });
+
     $('[data-fancybox="diplome"]').fancybox({
         animationEffect: "zoom-in-out",
         animationDuration: 600,
